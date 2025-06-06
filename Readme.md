@@ -5,7 +5,7 @@ A Node.js implementation of a TCP-based file transfer system with real-time prog
 - **Server**: Receives and stores files in `./storage`
 - **Client**: Sends files with progress display
 
-## Features
+## 🚀 Features
 - TCP-based file transfer
 - Real-time progress percentage
 - Backpressure handling
@@ -18,7 +18,7 @@ A Node.js implementation of a TCP-based file transfer system with real-time prog
 - Basic CLI knowledge
 - `storage` directory
 
-## Installation
+## 📦 Installation
 
 ```bash
   git clone git@github.com:jamil-babayev/File-Uploader.git
@@ -31,4 +31,15 @@ A Node.js implementation of a TCP-based file transfer system with real-time prog
 ```bash
   node server.js &
   node client.js <filename>
+```
+
+## Example Output:
+
+```
+  uploading... 0%
+  uploading... 25%
+  uploading... 50%
+  uploading... 75%
+  uploading... 100%
+  file uploaded successfully.
 ```

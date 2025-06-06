@@ -1,7 +1,7 @@
 # TCP File Transfer System
 
 ## Overview
-A Node.js implementation of a TCP-based file transfer system with real-time progress tracking. The system consists of:
+A Node.js implementation of a TCP-based file transfer system with real-time progress tracking. The project is a CLI tool and consists of:
 - **Server**: Receives and stores files in `./storage`
 - **Client**: Sends files with progress display
 
@@ -16,7 +16,19 @@ A Node.js implementation of a TCP-based file transfer system with real-time prog
 ## Prerequisites
 - Node.js v16+
 - Basic CLI knowledge
-- `storage` directory (created automatically)
+- `storage` directory
 
 ## Installation
+
 ```bash
+  git clone git@github.com:jamil-babayev/File-Uploader.git
+  cd File-Uploader
+  mkdir storage
+```
+
+## Usage
+
+```bash
+  node server.js &
+  node client.js <filename>
+```

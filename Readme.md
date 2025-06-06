@@ -1,0 +1,22 @@
+# TCP File Transfer System
+
+## Overview
+A Node.js implementation of a TCP-based file transfer system with real-time progress tracking. The system consists of:
+- **Server**: Receives and stores files in `./storage`
+- **Client**: Sends files with progress display
+
+## Features
+- TCP-based file transfer
+- Real-time progress percentage
+- Backpressure handling
+- Filename encapsulation
+- Comprehensive error handling
+- Stream processing for large files
+
+## Prerequisites
+- Node.js v16+
+- Basic CLI knowledge
+- `storage` directory (created automatically)
+
+## Installation
+```bash
